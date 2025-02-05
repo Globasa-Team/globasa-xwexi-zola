@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xwexi-zola-test.cloudflare.dev/sitemap.xml

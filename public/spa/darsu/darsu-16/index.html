@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://xwexi-zola-test.cloudflare.dev/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://xwexi-zola-test.cloudflare.dev/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://xwexi-zola-test.cloudflare.dev/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+
+  
+    
+  
+  
+    
+  
+
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Lección 16 | Globasa SPA</title>
+<meta name="description" content="">
+<link rel="canonical" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-16/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            {
+              "@type": "ListItem",
+              "position":  1 ,
+              "name": "Home",
+              "item": "https://xwexi-zola-test.cloudflare.dev/"
+            },
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  2 ,
+              "name": "Spa",
+              "item": "https://xwexi-zola-test.cloudflare.dev/spa/"
+            },
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  3 ,
+              "name": "Darsu",
+              "item": "https://xwexi-zola-test.cloudflare.dev/spa/darsu/"
+            },
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            
+            {
+              "@type": "ListItem",
+              "position":  4 ,
+              "name": "Darsu 16",
+              "item": "https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-16/"
+            },
+          
+        
+      
+
+      
+      
+      []
+    ]
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://xwexi-zola-test.cloudflare.dev/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://xwexi-zola-test.cloudflare.dev/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://xwexi-zola-test.cloudflare.dev/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://xwexi-zola-test.cloudflare.dev/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://xwexi-zola-test.cloudflare.dev">Globasa SPA</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.reddit.com/r/Globasa/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><ellipse cx="12" cy="15.5" rx="9" ry="6.5"/><path d="M15.5 16.78A5.67 5.67 0 0 1 12 18a5.67 5.67 0 0 1-3.5-1.22"/><circle cx="19" cy="4" r="2"/><path d="M18 10.07A2.14 2.14 0 0 1 19.86 9c1.182 0 2.14.95 2.14 2.12c0 .817-.466 1.526-1.15 1.88M6 10.07A2.14 2.14 0 0 0 4.14 9A2.13 2.13 0 0 0 2 11.12c0 .817.466 1.526 1.15 1.88M17 4c-2.357 0-3.536 0-4.268.732S12 6.643 12 9m-2.992 4h-.009m6.009 0h-.009"/></g></svg><span class="ms-2 visually-hidden">Globasa subreddit</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://discord.gg/JCaqAvapGR"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M7 7c3.889-1.333 6.111-1.333 10 0M7 17c3.5 1.333 6.5 1.333 10 0"/><path d="M8.857 17.625C8.857 18.75 6.737 21 6.192 21c-1.633 0-3.083-1.875-3.809-3.375c-.726-1.875-.544-6.562 1.632-12.937C5.601 3.546 7.195 3.18 8.857 3L10 6m5.143 11.625c0 1.125 2.12 3.375 2.665 3.375c1.633 0 3.083-1.875 3.809-3.375c.726-1.875.544-6.562-1.632-12.937C18.399 3.546 16.805 3.18 15.143 3L14 6m-6.49 6H7.5m9 0h-.01"/></g></svg><span class="ms-2 visually-hidden">Globasa Discord server</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.facebook.com/groups/438894989997591/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.182 10.333c-.978 0-1.182.192-1.182 1.111v1.667c0 .92.204 1.111 1.182 1.111h2.363v6.667c0 .92.205 1.111 1.182 1.111h2.364c.978 0 1.182-.192 1.182-1.111v-6.667h2.654c.741 0 .932-.135 1.136-.806l.507-1.666c.349-1.149.133-1.417-1.137-1.417h-3.16V7.556c0-.614.529-1.112 1.181-1.112h3.364c.978 0 1.182-.191 1.182-1.11V3.11C19 2.191 18.796 2 17.818 2h-3.364c-3.263 0-5.909 2.487-5.909 5.556v2.777z" color="currentColor"/></svg><span class="ms-2 visually-hidden">Globasa on Facebook</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://t.me/+D4HjZQpQqXZ1vLMS"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.985 15.408l3.242 3.686c1.2 1.365 1.801 2.048 2.43 1.881c.628-.166.844-1.064 1.275-2.861l2.39-9.968c.665-2.768.997-4.151.259-4.834s-2.017-.175-4.575.84L5.14 8.865c-2.046.813-3.069 1.219-3.134 1.917a1 1 0 0 0 0 .214c.063.699 1.084 1.108 3.128 1.927c.925.371 1.388.557 1.72.912q.056.06.108.124c.306.38.436.88.697 1.876l.489 1.867c.253.97.38 1.456.713 1.522s.622-.336 1.201-1.141zm0 0l-.317-.33c-.362-.378-.543-.566-.543-.8s.18-.423.543-.8l3.573-3.724" color="currentColor"/></svg><span class="ms-2 visually-hidden">Telegram</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://xwexi-zola-test.cloudflare.dev/eng/darsu/">Lessons</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://xwexi-zola-test.cloudflare.dev/eng/gramati/">Grammar</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://xwexi-zola-test.cloudflare.dev/eng/pimpan-logaxey/">Phrases</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://xwexi-zola-test.cloudflare.dev/eng/max-resurso/">More Resources</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+				<h3>Lecciones para principiantes</h3>
+				<ul class="list-unstyled">
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-01/">Lección 1</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-02/">Lección 2</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-03/">Lección 3</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-04/">Lección 4</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-05/">Lección 5</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-06/">Lección 6</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-07/">Lección 7</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-08/">Lección 8</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-09/">Lección 9</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-10/">Lección 10</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-11/">Lección 11</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-12/">Lección 12</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-13/">Lección 13</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-14/">Lección 14</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-15/">Lección 15</a></li>
+				                           
+					<li><a class="docs-link active" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-16/">Lección 16</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-17/">Lección 17</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-18/">Lección 18</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-19/">Lección 19</a></li>
+				                           
+					<li><a class="docs-link" href="https://xwexi-zola-test.cloudflare.dev/spa/darsu/darsu-20/">Lección 20</a></li>
+				
+				</ul>
+			
+			
+	</nav>
+</div>
+
+	  
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Lección 16</h1>
+        
+        <h2 id="lista-de-vocabulario">Lista de vocabulario</h2>
+<audio controls>
+ <source src="/darsu/16/darsu_16_lexilista.mp3" type="audio/mp3" />
+ <p>Su agente de usuario no es compatible con el elemento de audio HTML5.</p>
+</audio>
+<ul>
+<li><strong>eger</strong> - si (conjunción)</li>
+<li><strong>ger</strong> - <em>partícula del modo condicional</em></li>
+<li><strong>blue</strong> - azul</li>
+<li><strong>bruno</strong> - (color) café</li>
+<li><strong>jalo</strong> - amarillo/-a</li>
+<li><strong>hwese</strong> - gris</li>
+<li><strong>kijawi</strong> - verde</li>
+<li><strong>orange</strong> - anaranjado/-a</li>
+<li><strong>purpuro</strong> - morado/-a</li>
+<li><strong>roso</strong> - rojo/-a</li>
+<li><strong>sefide</strong> - blanco/-a</li>
+<li><strong>syahe</strong> - negro/-a</li>
+<li><strong>mobil</strong> - auto, coche, carro</li>
+<li><strong>bus</strong> - autobús</li>
+<li><strong>navi</strong> - barco</li>
+<li><strong>tren</strong> - tren</li>
+<li><strong>turi</strong> - viaje; viajar (<em>como un turista</em>)</li>
+<li><strong>dao</strong> - camino, sendero; viajar (<em>de un lugar a otro</em>)</li>
+<li><strong>visita</strong> - visitar</li>
+<li><strong>xaher</strong> - ciudad</li>
+<li><strong>-ya</strong> - (<em>sufijo</em>) <em>sustantivos abstractos</em></li>
+</ul>
+<h2 id="notas">Notas</h2>
+<h3 id="modo-condicional">Modo Condicional</h3>
+<p>El modo condicional se expresa usando la partícula verbal <strong>ger</strong>. La cláusula subordinada (<em>si...</em>) usa la forma verbal del diccionario.</p>
+<p><strong>Mi ger turi in Turki eger mi pala Turkisa.</strong><br />
+Yo viajaría en/a Turquía si hablara turco.</p>
+<h3 id="sufijo-ya">Sufijo <em>-ya</em></h3>
+<p>El sufijo <strong>-ya</strong> se utiliza para convertir adjetivos, sustantivos y preposiciones en una variedad de sustantivos abstractos diferentes. Haz click <a href="http://xwexi.globasa.net/eng/gramati/inharelexi">aquí</a> para una descripción completa.</p>
+<h2 id="ejemplos-de-oraciones">Ejemplos de oraciones</h2>
+<audio controls>
+ <source src="/darsu/16/darsu_16_misalli_jumle.mp3" type="audio/mp3" />
+ <p>Su agente de usuario no es compatible con el elemento de audio HTML5.</p>
+</audio>
+<p><strong>Kam yu ger kari purpuro mobil?</strong><br />
+¿Comprarías un auto morado?</p>
+<p><strong>Mi xa dao cel Franse yon tren.</strong><br />
+Yo viajaré a Francia en tren.</p>
+<h2 id="practica-de-lectura-y-comprension-auditiva">Práctica de lectura y comprensión auditiva</h2>
+<audio controls>
+ <source src="/darsu/16/darsu_16_doxoli_abyasa.mp3" type="audio/mp3" />
+ <p>Su agente de usuario no es compatible con el elemento de audio HTML5.</p>
+</audio>
+<p>Mi vole na turi in Nipon. Mi xa dao cel denloka yon day, sefide navi. Mi xa visita multi meli xaher. Mi no pala Niponsa. Mi haja na xwexi Niponsa cel na abil na pala ton moyte.</p>
+<h2 id="actividad-de-la-leccion">Actividad de la lección</h2>
+<p><em>Cree tus propias oraciones usando los ejemplos anteriores y ejemplos de lecciones anteriores como patrones de oraciones. Cuenta una historia.</em></p>
+<textarea width="100%" spellcheck="false" placeholder="Escriba sus propias oraciones aquí."></textarea>
+        
+        
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/ShawnPConroy/zola-pulladidoks-theme">Pulladidoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+  
+  
+<script type="text/javascript" src="https://xwexi-zola-test.cloudflare.dev/js/main.js" defer></script>
+
+  
+</body>
+</html>
