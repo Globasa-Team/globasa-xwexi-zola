@@ -192,19 +192,19 @@ index_format = "elasticlunr_javascript"
 # build_search_index = false
 
 [languages.fra]
-title = "Globasa FRA"
+title = "Doxo FRA"
 
 [languages.eng]
-title = "Globasa ENG"
+title = "Doxo ENG"
 
 [languages.epo]
-title = "Globasa EPO"
+title = "Doxo EPO"
 
 [languages.spa]
-title = "Globasa SPA"
+title = "Doxo SPA"
 
 [languages.end]
-title = "Globasa END"
+title = "Doxo END"
 
 # You can put any kind of data here. The data
 # will be accessible in all templates
